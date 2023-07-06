@@ -1,3 +1,4 @@
+/* Estilização do body, com seus respectivos seletores*/
 body {
 
     color: aqua;
@@ -6,6 +7,7 @@ body {
 
 }
 
+/* Estilização da imagem do header*/
 header img {
     width: 150px;
     height: 150px;
@@ -13,7 +15,7 @@ header img {
     border: 5px solid
 }
 
-
+/* Estilização do  ul central*/
 ul {
     display: flex;
     justify-content: space-between;
@@ -23,10 +25,12 @@ ul {
 
 }
 
+/* alinhamento do alinhamento */
 .center {
     text-align: center;
 }
 
+/* Estilização de fontes e alinhamentos da página*/
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -34,30 +38,35 @@ h1 {
     
 }
 
+/* Estilização de fontes da página*/
 h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Estilização de fontes e cores da página*/
 h3 {
     color: whitesmoke;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Editando tamanhos da pagina do footer*/
 footer img {
     width: 40px;
     height: 45px;
 }
 
+/* Estilização de alinhamentos da página*/
 footer {
     justify-content: center;
     display: flex;
     justify-content: space-evenly;
 }
 
+/* Estilização de cores */
 .primeiro {
     background-color: rgba(240, 255, 255, 0.155);
 }
-
+/* Estilização de hover e de cores*/
 footer a:hover {
     color: brown;
     margin-top: 20px;
