@@ -1,96 +1,66 @@
-body{
-    margin: 0;
-    font-family:'Times New Roman', Times, serif
-}
+body {
 
-.main-contato{
-    width: 100vw;
-    height: 100vh;
-    background-color: #201b2c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.left-contato{
-    width: 50vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-h1{
     color: aqua;
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-gradiente-de-luxo-abstrato-azul-escuro-liso-com-banner-de-estudio-vinheta-preta_1258-117930.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
-.right-contato{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid
 }
 
-.card-contato{
-    width: 60%;
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px;
-    background: #2f2841;
-    border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
     
 }
 
-.card-contato>h1{
-    color: aqua;
-    font-weight: 800;
-    margin: 0;
+h2 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.textfield{
-    margin: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+h3 {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer img {
+    width: 40px;
+    height: 45px;
+}
+
+footer {
     justify-content: center;
-    margin: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.textfield> input{
-    width: 100%;
-    border: none;
-    border-radius: 10px;
-    padding: 15px;
-    background: #514869;
-    color:aqua;
-    font-size: 12pt;
-    box-shadow:inset 0px 10px 40px #00000056;
-    box-sizing: border-box;
+.primeiro {
+    background-color: rgba(240, 255, 255, 0.155);
 }
 
-.textfield > label{
-    color: aliceblue;
-    margin-bottom: 10px;
+footer a:hover {
+    color: brown;
+    margin-top: 20px;
+    padding: 20px;
 }
 
-.textfield > input::placeholder{
-    color: aliceblue;
-}
-
-.button{
-    width: 50%;
-    padding: 5px 0px;
-    margin: 10px;
-    border: none;
-    border-radius: 8px;
-    font-weight: 300;
-    cursor: pointer;
-    background:rgb(0, 255, 255) ;
-    box-shadow: 0px 10px 40px -12px    
-    
-}
